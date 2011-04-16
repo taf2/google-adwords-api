@@ -1,0 +1,20 @@
+This project hosts the new Ads common framework for Ruby, as well as the Ruby client libraries for the various SOAP-based Ads APIs at Google.
+
+The Ruby client libraries make it easier to write Ruby clients to programmatically access your accounts.
+
+Want to stay up-to-date with our latest releases? Subscribe to the "downloads update feed":http://fusion.google.com/add?feedurl=http://code.google.com/feeds/p/google-api-ads-ruby/downloads/basic .
+
+h1. Client Library Features
+* Support for logging incoming and outgoing SOAP messages
+* Support for logging request information
+* Support for API calls to the production or Sandbox environments
+* Local validation for parameter number and type on API calls
+* Thread-safe
+* Ruby-like syntax, by converting all method names and properties to snake_case instead of camelCase
+* Simplified development model by using arrays and hashes instead of soap4r objects (will also allow us to move away from soap4r in the future)
+* (AdWords) Support for tracking API unit usage
+* (AdWords) Report downloading in XML and CSV formats
+
+*Note*: These client libraries do not fully support SSL validation at the moment.
+
+--Google Ads APIs Team
