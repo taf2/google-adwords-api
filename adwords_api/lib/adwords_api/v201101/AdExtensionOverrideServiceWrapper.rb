@@ -1,3 +1,4 @@
+require 'adwords_api/v201101/ServicedWrapperBase.rb'
   # This file was automatically generated during the "rake generate" step of
   # library setup.
   require 'adwords_api/v201101/AdExtensionOverrideServiceDriver.rb'
@@ -8,7 +9,9 @@
 
         # Wrapper class for the v201101 AdExtensionOverrideService service.
         # This class is automatically generated.
-        class AdExtensionOverrideServiceWrapper
+        class AdExtensionOverrideServiceWrapper < ServerWrapperBase
+
+
 
           # Holds the API object to which the wrapper belongs.
           attr_reader :api
@@ -133,18 +136,6 @@
           # - property: the property being set
           # - value: the value it's being set to
           #
-          def set_object_property(object, property, value)
-            begin
-              object.send(property.to_s + '=', value)
-            rescue
-              object_class = object.class.name.split('::').last
-              error = AdsCommon::Errors::MissingPropertyError.new(
-                  property, object_class)
-              message = "'Missing property `" + property.to_s +
-                  "' for object class `" + object_class + "'"
-              raise(error, message)
-            end
-          end
 
           public
 

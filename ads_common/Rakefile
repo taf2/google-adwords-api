@@ -103,7 +103,7 @@ else
     # Files and dependencies
     s.files = PKG_FILES.to_a
     s.require_path = $LIBDIR
-    s.add_dependency('soap4r', '= 1.5.8')
+    s.add_dependency('soap4r', '>= 1.5.8')
     s.add_dependency('httpclient', '>= 2.1.5.2')
     s.add_dependency('httpi', '~>0.7.9')
 
@@ -117,7 +117,7 @@ else
     s.email = $GEM_EMAIL
     s.homepage = $GEM_HOMEPAGE
     s.rubyforge_project = $GEM_NAME
-    s.requirements << 'soap4r v1.5.8'
+    s.requirements << 'soap4r v1.5.8 or greater'
     s.requirements << 'httpclient v2.1.5.2 or greater'
     s.requirements << 'httpi v0.7.9 or greater'
   end

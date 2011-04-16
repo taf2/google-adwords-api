@@ -22,7 +22,7 @@
 
 require 'rubygems'
 begin
-  gem 'soap4r', '=1.5.8'
+  gem 'soap4r', '>=1.5.8'
 rescue
   require_gem 'soap4r', '=1.5.8'
 end

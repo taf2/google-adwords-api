@@ -308,7 +308,7 @@ else
     s.description = $GEM_DESCRIPTION
 
     # Files and dependencies
-    dependencies = [['soap4r', '= 1.5.8'],
+    dependencies = [['soap4r', '>= 1.5.8'],
                     ['httpclient', '>= 2.1.2'],
                     ['google-ads-common', $ADS_COMMON_VERSION]]
     dependencies += $EXTRA_DEPENDENCIES if $EXTRA_DEPENDENCIES

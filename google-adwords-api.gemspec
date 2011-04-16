@@ -9,6 +9,6 @@ Gem::Specification.new do |s|
   s.summary = "Ads API Client Libraries for Ruby"
   s.description = "Ported from http://code.google.com/p/google-api-ads-ruby/, but nicely packaged I hope"
   s.files = Dir.glob("{ads_common/,adwords_api}/**/*")
-  s.require_path = ["ads_common/lib", "adwords_api/lib"]
+  s.require_paths = ["ads_common/lib", "adwords_api/lib"]
   s.add_dependency("soap4r", ">= 1.5.8")
 end
