@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   s.name = "google-adwords-api"
   s.version = "0.1.1"
   s.date = "2011-04-16"
-  s.author = "http://code.google.com/p/google-api-ads-ruby/ modified by taf2"
+  s.author = "modified by taf2"
   s.email = "todd.fisher@gmail.com"
   s.homepage = "https://github.com/taf2/google-api-ads-ruby"
   s.platform = Gem::Platform::RUBY
