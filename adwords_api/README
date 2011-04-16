@@ -23,7 +23,7 @@ Install it using the gem install command.
    $ gem install --remote google-adwords-api
 
 The following gem libraries are required:
-- soap4r v1.5.8
+- soap4r v1.5.8 or greater
 - httpclient v2.1.2 or greater
 - google-ads-common v0.1.x
 

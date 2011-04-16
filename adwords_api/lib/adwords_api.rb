@@ -21,15 +21,13 @@
 # dependencies.
 
 require 'rubygems'
-gem 'soap4r', '=1.5.8'
-gem 'google-ads-common', '~>0.2.0'
+#gem 'soap4r', '>= 1.5.8'
+#gem 'google-ads-common', '~>0.2.0'
 require 'thread'
 require 'uri'
-require 'ads_common/logger'
-require 'ads_common/soap4r_patches'
-require 'ads_common/api'
-require 'ads_common/config'
-require 'ads_common/auth/client_login_handler'
+
+require 'ads_common'
+
 require 'adwords_api/auth/v13_login_handler'
 require 'adwords_api/errors'
 require 'adwords_api/api_config'
