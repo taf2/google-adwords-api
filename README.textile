@@ -18,3 +18,9 @@ h1. Client Library Features
 *Note*: These client libraries do not fully support SSL validation at the moment.
 
 --Google Ads APIs Team
+
+h2. Modifications to make it work well with bundler
+
+* single gem both commons and adwords api
+* packaged to support soap4r >= 1.5.8 instead of = 1.5.8
+* .spec included for easy forking
